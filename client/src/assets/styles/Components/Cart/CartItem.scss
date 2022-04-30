@@ -1,0 +1,39 @@
+.item{
+    .item__inner{
+        width: 325px;
+        height: 120px;
+
+        border: 1px solid #F3F3F3; 
+        border-radius: 20px;
+
+        margin-top: 20px;
+        .item__container{
+            margin: 20px 20px;
+            .item__row{
+                display: flex;
+                flex-direction: row;
+
+                align-items: center;
+                justify-content: space-between;
+                .item__img{
+                    margin-right: 20px;
+                }
+                .item__text__block{
+                    .item__text{
+                        font-size: 14px;
+                        font-family: 'Inter-Regular';
+                    }
+                    .item__price{
+                        margin-top: 8px;
+
+                        font-size: 14px;
+                        font-family: 'Inter-Bold';
+                    }
+                }
+                .item__button{
+                    cursor: pointer;
+                }  
+            }
+        }
+    }
+}

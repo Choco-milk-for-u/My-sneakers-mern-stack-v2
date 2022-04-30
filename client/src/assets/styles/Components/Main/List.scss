@@ -1,0 +1,9 @@
+.list{
+    .list__inner{
+        margin-top: 40px;
+        .list__row{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}

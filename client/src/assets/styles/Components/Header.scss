@@ -1,0 +1,66 @@
+.header {
+    .header__inner {
+        margin-top: 43px;
+        .container {
+            .header__row {
+                display: flex;
+                flex-direction: row;
+
+                justify-content: space-between;
+                align-items: center;
+
+                .logo__block {
+                    .logo__block__row {
+                        display: flex;
+                        flex-direction: row;
+
+                        align-items: center;
+                        .logo__block__titles {
+                            display: flex;
+                            flex-direction: column;
+
+                            .logo__block__name {
+                                font-family: "Inter-Bold";
+                                font-size: 20px;
+                                color: black;
+                            }
+                            .logo__block__subTitle {
+                                font-family: "Inter-Regular";
+                                font-size: 14px;
+                                color: #9d9d9d;
+                            }
+                        }
+                        img {
+                            cursor: pointer;
+                            margin-right: 16px;
+                        }
+                    }
+                }
+                .profile__block {
+                    .profile__block__row {
+                        display: flex;
+                        flex-direction: row;
+                        .profile__block__cart {
+                            display: flex;
+                            flex-direction: row;
+
+                            margin-right: 30px;
+                            img {
+                                cursor: pointer;
+                                margin-right: 10px;
+                            }
+                        }
+                        .profile__block__img {
+                            cursor: pointer;
+                            margin-right: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.header__hr {
+    border: 1px solid #eaeaea;
+    margin-top: 50px;
+}

@@ -1,0 +1,18 @@
+.slider{
+    .slider__inner{
+        margin-top: 45px;
+        .container{
+            .slider__row{
+                display: flex;
+                flex-direction: row;
+
+                align-items: center;
+                .slider__button{
+                    cursor: pointer;
+                    position: relative;
+                    right: 40px;
+                }
+            }
+        }
+    }
+}
