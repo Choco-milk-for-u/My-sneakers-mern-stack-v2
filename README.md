@@ -8,3 +8,4 @@ cd client; npm run start;
 server-side:
 cd server; npm run dev;
 (dont forget write in .env your value)
+# Plesae use postman to create a few cards, without it you will see nothing at all.
